@@ -1,0 +1,13 @@
+h1{
+    border-style: solid;
+    border-color: rgb(16, 155, 14);
+    border-width: 7px;
+    border-radius: 100px;
+}
+p{
+    border:3px dotted rgb(10, 20, 160);
+    border-radius: 5px;
+}
+#box1{
+    border-top:solid 3px rgb(208, 23, 23);
+}

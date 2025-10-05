@@ -1,0 +1,28 @@
+@font-face {
+    font-family:magnetic ;
+    src: url(fonts/BitcountPropSingleInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf);
+}
+
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+}
+h2{
+    font-family: "magnetic";
+    
+    font-size: 2em;
+    font-weight: bold;
+    font-style: oblique;
+}
+h3{
+    font-family: "Bitcount Prop Single Ink";
+    font-size: 50px;
+
+    
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}

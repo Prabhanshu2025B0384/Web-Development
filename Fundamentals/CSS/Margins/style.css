@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+.box{
+    border-style: double;
+    border-color: blue;
+    font-size: larger;
+    height: 100px;
+    width: 100px;
+    
+}
+#box1{
+    
+    background-color: aquamarine;
+    margin-left: auto;
+}
+#box2{
+    background-color: blue;
+    margin: auto;
+}
