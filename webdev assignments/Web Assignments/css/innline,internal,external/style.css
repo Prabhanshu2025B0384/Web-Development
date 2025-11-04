@@ -1,0 +1,12 @@
+/*
+external css means appling css in a separate file
+*/
+#p1{
+    background-color: black;
+    color: blue;
+}
+/*class groups elements id is for individual*/
+.even{
+    background-color: aqua;
+    color: black;
+}
