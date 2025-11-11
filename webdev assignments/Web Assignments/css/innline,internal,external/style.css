@@ -1,6 +1,13 @@
 /*
 external css means appling css in a separate file
 */
+/*universal sellector
+syntax=
+*{
+}
+
+*/
+
 #p1{
     background-color: black;
     color: blue;
