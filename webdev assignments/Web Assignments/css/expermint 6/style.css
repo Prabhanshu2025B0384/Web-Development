@@ -1,11 +1,12 @@
-.prodcutbox{
-    padding:15px;
-}
+
 #h2{
     color: red;
 }
 button{
     color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
     background-color: blue;
 }
 body{
@@ -14,7 +15,15 @@ body{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.prodcutbox{
+    padding:15px;
+    height: 600px;
+    width:600px;
+}
 h1{
     margin-bottom: 30px;
     color: brown;
+}
+button:hover{
+    background-color: darkblue;
 }
