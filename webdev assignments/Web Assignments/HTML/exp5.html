@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/submit-form.php" method="post">
+        <h2 align="center">student registration form </h1><hr>
+  <label for="username">Full Name:</label>
+  <input type="text" id="username" name="Enter your  Full Name" placeholder="Enter your username" required><br><br>
+
+<label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+  <label for="gender"> gender:</label>
+  <input type="radio" value="male" name="gender" > male
+  <input type="radio" value="female" name="gender">female 
+  <input type="radio" value="other" name="gender" >other  <br><br>
+
+<label>Course:</label>  
+    <select name="course" required>
+        <option value=""> ---- Select Course ---- </option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="React">React</option>
+        <option value="PHP">PHP</option>
+        <option value="C++">c++</option>
+      </select>
+      <br><br>
+  <label for="contact no:"> Contact No:</label> 
+  <input type="Contact" id="Contact" name="Contact" placeholder="Enter Phone Number" required><br><br>
+  
+  <label for="Address:" >Address:</label>
+  <input type="textarea" placeholder="Enter your Address"></textarea><br> <br>
+
+  <button type="submit">register</button>
+  <button type="submit">close</button>
+  <hr>
+  <br>
+  <br>
+    </form>
+ 

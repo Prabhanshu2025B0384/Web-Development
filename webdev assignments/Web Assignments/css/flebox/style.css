@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.box{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.box1{background-color: red;}
+.box2{background-color: green;}
+.box3{background-color: yellow;}
+.box4{background-color:blue;}
+.box5{background-color: purple;}
