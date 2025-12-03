@@ -4,7 +4,6 @@
     grid-gap: 70px;
     background-color: rgb(220, 227, 214);
     justify-content: center;
-    
 }
 .box{
     text-align: center;
@@ -15,7 +14,7 @@
     height:700px;
     background-color: gray;
     width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 20px;
 }
 body{
@@ -28,6 +27,8 @@ button {
     padding: 10px 20px;
     border-radius: 6px;
     font-size: 16px;
+    margin-top: auto;
+
 }
 .box:hover{
     transform: scale(1.02);
@@ -47,10 +48,8 @@ p {
 .price{
     font-size: 20px;
     color: red;
+    margin-top: auto;
 }
 .footer{
     margin-top: auto;
 }
-
-
-
