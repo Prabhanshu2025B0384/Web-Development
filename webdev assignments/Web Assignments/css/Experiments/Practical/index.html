@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 7</title>
+    <style>
+        .box {
+            display: inline-block;
+            width: 120px;
+            height: 50px;
+            background: purple;
+            color: white;
+            text-align: center;
+            line-height:50px;
+            margin: 2px;
+        }
+        .block div {
+            background-color: lightblue;
+            color: white;
+            padding: 10px;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        .Inline {
+            background-color: green;
+            color: white;
+            padding: 5px 10px;
+            margin-right: 5px;
+        }
+        .float {overflow: hidden;}
+.float div {
+    background-color: orange;
+    padding: 10px 20px;
+    float: left;
+    margin-right: 5px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <h1 align="center">Navigation Menu Demo</h1>
+    <h3>Block Example</h3>
+    <div class="block">
+        <div>Home</div> 
+        <div>Products</div> 
+        <div>About</div> 
+    </div>
+    <h3>Inline example</h3>
+    <span class="Inline">Home</span>
+    <span class="Inline">Products</span>
+    <span class="Inline">About</span>
+    <h3>Inline-block Example</h3>
+    <div class="box">Home</div>
+    <div class="box">Products</div>
+    <div class="box">About</div>
+     <h3>Float Example</h3>
+    <div class="float">
+        <div>Home</div>
+        <div>Products</div>
+        <div>About</div>
+    </div>
+</body>
+</html>
