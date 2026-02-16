@@ -1,43 +1,116 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
     <title>Simple News Website</title>
+
+    <style>
+        body {
+            background-color: lightgrey;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            text-shadow: 3px 3px 5px green, -3px -3px 5px cyan;
+        }
+
+        header p {
+            text-shadow: 0 0 5px skyblue, 0 0 10px white;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        .world {
+            background-color: khaki;
+            color: darkblue;
+        }
+
+        .sports {
+            background-color: lightblue;
+            color: red;
+        }
+
+        .entertainment {
+            background-color: lightgreen;
+            color: darkorange;
+        }
+
+        .podcast {
+            background-color: lightgrey;
+            color: teal;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        footer p {
+            font-weight: bold;
+        }
+    </style>
+
 </head>
-<body style="background-color: #f0f0f0;">
-    <header align ="center">
-        <h1 style="text-shadow: 3px 3px 10px rgb(11, 198, 51),-3px -3px 10px rgb(21, 194, 200);" ><b>Global Daily News</b></h1>
-        <p  style="text-shadow:   0 0 10px rgba(0, 200, 255, 0.8),0 0 25px rgba(255, 255, 255, 0.6);" >Your Trusted Source for Latest Updates</p>
+
+<body>
+
+    <header>
+        <h1><b>Global Daily News</b></h1>
+        <p>Your Trusted Source for Latest Updates</p>
         <hr>
-        <p  ><a href="https://indianexpress.com/section/sports/" target="_blank" title="sports news" style="color: green;">Sports</a>|<a href="https://www.bbc.com/news/world" target="_blank" title="World news" style="color: blue;">World</a>  | <a href="https://www.hindustantimes.com/entertainment" target="_blank" title="Entertainment news" style="color: red;">Entertainment</a>|<a href="https://www.thehindu.com/podcast/" target="_blank" title="Podcast news" style="color: brown;">Podcast</a> |<a href="https://www.thehindu.com/premium/" title="Click to Contact" target="_blank" style="color: aqua;">Contact</a></p>
+
+        <nav>
+            <a href="https://indianexpress.com/section/sports/" target="_blank" style="color: green;">Sports</a> |
+            <a href="https://www.bbc.com/news/world" target="_blank" style="color: blue;">World</a> |
+            <a href="https://www.hindustantimes.com/entertainment" target="_blank" style="color: red;">Entertainment</a> |
+            <a href="https://www.thehindu.com/podcast/" target="_blank" style="color: brown;">Podcast</a> |
+            <a href="https://www.thehindu.com/premium/" target="_blank" style="color: aqua;">Contact</a>
+        </nav>
+
         <hr>
     </header>
-    <p style="background-color: #fff685;color: #0049B7;"><big>World News</big></p>
+
+    <p class="world"><big>World News</big></p>
     <p>Today’s top headline: Global leaders meet to discuss climate change initiatives.</p>
-    <img src="assets/bbc.png" >
-    <p><a href="https://www.bbc.com/news" target="_blank" >Read more on BBC</a></p>
+    <img src="assets/bbc.png">
+    <p><a href="https://www.bbc.com/news" target="_blank">Read more on BBC</a></p>
+
     <hr>
-    <p style="background-color: #e8f9fd;color: #ff1e00;"><b><big>Sports Update</big></b></p>
+
+    <p class="sports"><big>Sports Update</big></p>
     <p>Highlights of yesterday’s football match with thrilling last-minute goals!</p>
-       <video controls autoplay muted loop >
-            <source src="assets/crying man.mp4">
-        </video>
+    <video controls autoplay muted loop>
+        <source src="assets/crying man.mp4">
+    </video>
+
     <hr>
-    <p style="background-color: #c2edda;color: #f43a09;"><b><big>Entertainment Buzz</big></b></p>
+
+    <p class="entertainment"><big>Entertainment Buzz</big></p>
     <p>New movie trailer released today. Fans are excited!</p>
-     <video controls autoplay muted loop >
-            <source src="assets/crying man.mp4">
-        </video>
+    <video controls autoplay muted loop>
+        <source src="assets/crying man.mp4">
+    </video>
+
     <hr>
-    <p style="background-color: #d9d9d9;color: #51d0de;"><b><big>News Podcast</big></b></p>
+
+    <p class="podcast"><big>News Podcast</big></p>
     <p>Listen to today’s top headlines:</p>
-    <audio  controls autoplay muted loop >
-            <source src="assets/music.mp3">
+    <audio controls autoplay muted loop>
+        <source src="assets/music.mp3">
     </audio>
+
     <footer>
         <hr>
-        <p style="color: red;"><b>Contact Us</b></p>
-        <p style="color: lightblue;">Email:<a href="mailto:sprabhanshu1001@gmail.com">info@globalnews.com</a> </p>
-        <p style="color: violet;">© 2025 Global Daily News</p>
+        <p style="color: red;">Contact Us</p>
+        <p style="color: blue;">Email: <a href="mailto:sprabhanshu1001@gmail.com">info@globalnews.com</a></p>
+        <p style="color: purple;">© 2025 Global Daily News</p>
     </footer>
+
 </body>
 </html>

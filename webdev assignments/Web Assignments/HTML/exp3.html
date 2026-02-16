@@ -2,35 +2,81 @@
 <html lang="en">
 <head>
     <title>Basic Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgrey;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            width: 100px;
+        }
+
+        th {
+            background-color: cyan;
+        }
+
+        .open {
+            background-color: blue;
+            color: red;
+        }
+
+        .closed {
+            background-color: pink;
+            color: purple;
+        }
+
+        .timing {
+            background-color: lightgreen;
+            color: darkgreen;
+        }
+    </style>
 </head>
+
 <body>
+
     <h2>Simple Table Example</h2>
-    <table border="1">
-        <tr border="1" style="background-color: cyan;">
+
+    <table>
+        <tr>
             <th>Monday</th>
-            <th>Tueday</th>
+            <th>Tuesday</th>
             <th>Wednesday</th>
             <th>Thursday</th>
-            <th>Firday</th>
+            <th>Friday</th>
             <th>Saturday</th>
             <th>Sunday</th>
         </tr>
-        <tr align ="center" border="1" >
-            <td width="100" colspan="6" style="background-color: blue ;color: red;">Open</td>
-            
-            <td width="100" rowspan="2" style="background-color: rgb(245, 41, 197) ;color: rgb(65, 5, 49);">Closed</td>
+
+        <tr align="center">
+            <td colspan="6" class="open">Open</td>
+            <td rowspan="2" class="closed">Closed</td>
         </tr>
-        <tr align ="center" border="1" style="background-color: rgb(71, 176, 81) ;color: rgb(5, 74, 34);">
-            <td width="100">11:00-6:00</td>
-            <td width="100">11:00-22:00</td>
-            <td width="100">11:00-6:00</td>
-            <td width="100">11:00-22:00</td>
-            <td width="100">11:00-6:00</td>
-            <td width="100">11:00-22:00</td>
-            
-            
-          
+
+        <tr align="center" class="timing">
+            <td>11:00-6:00</td>
+            <td>11:00-22:00</td>
+            <td>11:00-6:00</td>
+            <td>11:00-22:00</td>
+            <td>11:00-6:00</td>
+            <td>11:00-22:00</td>
         </tr>
+
     </table>
+
 </body>
 </html>

@@ -2,44 +2,97 @@
 <html>
 <head>
     <title>Registration Form</title>
+
+    <style>
+        body {
+            background-color: lightgrey;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            background-color: white;
+            width: 400px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 2px solid darkblue;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 95%;
+            padding: 6px;
+            margin-top: 5px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 10px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+    </style>
 </head>
+
 <body>
+
     <form action="/submit-form.php" method="post">
-        <h2 align="center">student registration form </h1><hr>
-  <label for="username">Full Name:</label>
-  <input type="text" id="username" name="Enter your  Full Name" placeholder="Enter your username" required><br><br>
 
-<label for="email">Email:</label>
-  <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <h2>Student Registration Form</h2>
+        <hr>
 
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your full name" required><br><br>
 
-  <label for="gender"> gender:</label>
-  <input type="radio" value="male" name="gender" > male
-  <input type="radio" value="female" name="gender">female 
-  <input type="radio" value="other" name="gender" >other  <br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required><br><br>
 
-<label>Course:</label>  
-    <select name="course" required>
-        <option value=""> ---- Select Course ---- </option>
-        <option value="Python">Python</option>
-        <option value="Java">Java</option>
-        <option value="React">React</option>
-        <option value="PHP">PHP</option>
-        <option value="C++">c++</option>
-      </select>
-      <br><br>
-  <label for="contact no:"> Contact No:</label> 
-  <input type="Contact" id="Contact" name="Contact" placeholder="Enter Phone Number" required><br><br>
-  
-  <label for="Address:" >Address:</label>
-  <input type="textarea" placeholder="Enter your Address"></textarea><br> <br>
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter your password" required><br><br>
 
-  <button type="submit">register</button>
-  <button type="submit">close</button>
-  <hr>
-  <br>
-  <br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Course:</label><br>
+        <select required>
+            <option>---- Select Course ----</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>React</option>
+            <option>PHP</option>
+            <option>C++</option>
+        </select>
+        <br><br>
+
+        <label>Contact No:</label><br>
+        <input type="tel" placeholder="Enter phone number" required><br><br>
+
+        <label>Address:</label><br>
+        <textarea rows="4" placeholder="Enter your address"></textarea><br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Close</button>
+
+        <hr>
+
     </form>
- 
+
+</body>
+</html>
