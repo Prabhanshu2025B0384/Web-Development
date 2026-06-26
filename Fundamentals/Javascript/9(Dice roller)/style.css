@@ -1,0 +1,37 @@
+*{
+    box-sizing:border-box ;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+}
+#b1{
+    border-radius: 10px;
+    color: red;
+    background-color: hsl(240, 100%, 20%);
+    padding: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.25s;
+}
+#b1:hover{
+    background-color: hsl(240, 100%, 40%);
+}
+#b1:active{
+    background-color: hsl(240, 100%, 60%);
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.bo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.bo1{
+    border: 3px solid orange;
+    
+    font-size: 2em;
+    
+}

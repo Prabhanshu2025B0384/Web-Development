@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li class="brand">
+            <img src="images/logo.png">
+            Spotify
+        </li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="songList">
+        <h1>Dil Tute Aashiko Ki Playlist</h1>
+
+        <div class="songItem">
+            <img src="images/cover1.png">
+            <div class="songInfo">
+                <span>Mujhe Peene Do</span>
+                <span>Darshan Raval</span>
+            </div>
+            <span class="songDuration">3:16</span>
+            <i class="fa-solid fa-play songItemPlay" id="0"></i>
+        </div>
+
+        <div class="songItem">
+            <img src="images/cover2.png">
+            <div class="songInfo">
+                <span>Pal Pal</span>
+                <span>Talwinder</span>
+            </div>
+            <span class="songDuration">3:28</span>
+            <i class="fa-solid fa-play songItemPlay" id="1"></i>
+        </div>
+
+        <div class="songItem">
+            <img src="images/cover3.png">
+            <div class="songInfo">
+                <span>Shaky</span>
+                <span>Sanju Rathod</span>
+            </div>
+            <span class="songDuration">3:34</span>
+            <i class="fa-solid fa-play songItemPlay" id="2"></i>
+        </div>
+
+        <div class="songItem">
+            <img src="images/cover5.png">
+            <div class="songInfo">
+                <span>Sanam Re</span>
+                <span>Arijit Singh</span>
+            </div>
+            <span class="songDuration">5:08</span>
+            <i class="fa-solid fa-play songItemPlay" id="3"></i>
+        </div>
+
+        <div class="songItem">
+            <img src="images/cover4.png">
+            <div class="songInfo">
+                <span>Haseen</span>
+                <span>Talha Anjum</span>
+            </div>
+            <span class="songDuration">2:54</span>
+            <i class="fa-solid fa-play songItemPlay" id="4"></i>
+        </div>
+
+    </div>
+</div>
+
+<div class="bottom">
+    <input type="range" id="progBar" min="0" max="100">
+
+    <div class="icons">
+        <i class="fa-solid fa-backward"></i>
+        <i class="fa-solid fa-play" id="masterPlay"></i>
+        <i class="fa-solid fa-forward"></i>
+    </div>
+
+    <div class="songInfo1">
+        <img src="images/playing.gif">
+        <span id="currentSong">Select a song</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/9b95d60a8d.js"></script>
+
+</body>
+</html>

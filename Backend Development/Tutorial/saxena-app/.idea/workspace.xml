@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7442b7c7-5194-4ca5-a1b2-0dfe70913dd7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Display/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Display/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Float/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Float/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Height and Width/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Height and Width/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Margins/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Margins/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Overflow/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Overflow/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Positions/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Positions/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Shadows/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/Shadows/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/borders/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/borders/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/fonts,colors/font.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/fonts,colors/fonts/BitcountPropSingleInk-VariableFont_CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/fonts,colors/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/CSS/inline,external,internal formatting/css1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Fundamentals/CSS/inline,external,internal formatting/css1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Fundamentals/Html/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Fundamentals/Html/tables.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3EfSn2ajXSFOtCBM1MnAjFPWuYw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/idonp/Desktop/blog-Webdev/Backend Development/Tutorial/saxena-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7442b7c7-5194-4ca5-a1b2-0dfe70913dd7" name="Changes" comment="" />
+      <created>1780568294086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780568294086</updated>
+      <workItem from="1780568295508" duration="450000" />
+      <workItem from="1780654842596" duration="631000" />
+      <workItem from="1780655488468" duration="46000" />
+      <workItem from="1780655539233" duration="802000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

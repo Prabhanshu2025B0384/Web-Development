@@ -1,0 +1,27 @@
+#greeting p{
+    background-color: hsl(196, 100%, 81%);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+a:link{
+    background-color:aliceblue;
+}
+a:hover{
+    color: chartreuse;
+    font-size: 1.1em;
+}
+a:active{
+    color: darkblue;
+}
+a:visited{
+    color: gray;
+}
+a:not(:hover){
+    color: black;
+}
+/* li:nth-child(even,odd,3n,1,2,3){
+
+} */

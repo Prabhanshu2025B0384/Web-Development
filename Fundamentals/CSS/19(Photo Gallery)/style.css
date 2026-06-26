@@ -1,0 +1,13 @@
+
+.gallery{
+    display: inline-block;
+    border: 2px solid orange;
+}
+.gallery .desc{
+      text-align: center;
+      padding: 20px;
+}
+.gallery img{
+    height: auto;
+    width: 200px;
+}

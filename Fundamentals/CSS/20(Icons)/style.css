@@ -1,0 +1,6 @@
+.fa-solid.fa-house{
+    color: hsl(127, 81%, 40%);
+}
+.fa-solid.fa-house:hover{
+    color: hsl(127, 81%, 70%);
+}
